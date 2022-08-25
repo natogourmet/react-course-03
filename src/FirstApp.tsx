@@ -1,12 +1,23 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+interface props {
+  title: string;
+  subtitle: string;
+}
 
 const name: string = 'Nato Gourmet';
 
-export const FirstApp = () => {
+export const FirstApp = ({ title, subtitle }: props) => {
   return (
     <>
-      <h1>{ name }</h1>
-      <p>Software Engineer</p>
+      <h1>{title}</h1>
+      <p>{subtitle}</p>
     </>
   );
+};
+
+FirstApp.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
 };
