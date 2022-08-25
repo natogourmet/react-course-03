@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+
+const name: string = 'Nato Gourmet';
 
 export const FirstApp = () => {
   return (
-    <h1>Nato Gourmet</h1>
-  )
-}
+    <>
+      <h1>{ name }</h1>
+      <p>Software Engineer</p>
+    </>
+  );
+};
