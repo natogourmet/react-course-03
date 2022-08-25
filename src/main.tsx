@@ -3,9 +3,11 @@ import { createRoot } from 'react-dom/client';
 // import { App } from './HelloWorldApp';
 import { FirstApp } from './FirstApp';
 import './styles.css';
+import { CounterApp } from './CounterApp';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <FirstApp title="Nato Gourmet" subtitle="Software Engineer" />
+    {/* <FirstApp title="Nato Gourmet" subtitle="Software Engineer" /> */}
+    <CounterApp value={0} />
   </React.StrictMode>
 );
