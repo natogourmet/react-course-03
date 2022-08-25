@@ -15,4 +15,5 @@ button {
   border-radius: 5px;
   color: white;
   cursor: pointer;
+  margin: 1rem;
 }
