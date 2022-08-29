@@ -12,7 +12,7 @@ export const FirstApp = ({ title, subtitle }: props) => {
   return (
     <>
       <h1 data-testid="test-title">{title}</h1>
-      <p>{subtitle}</p>
+      <h2>{subtitle}</h2>
     </>
   );
 };
