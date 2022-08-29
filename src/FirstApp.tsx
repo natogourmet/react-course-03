@@ -11,7 +11,7 @@ const name: string = 'Nato Gourmet';
 export const FirstApp = ({ title, subtitle }: props) => {
   return (
     <>
-      <h1>{title}</h1>
+      <h1 data-testid="test-title">{title}</h1>
       <p>{subtitle}</p>
     </>
   );
