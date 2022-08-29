@@ -11,7 +11,9 @@ exports[`Tests on CounterApp should match with snapshot 1`] = `
   <button>
     -1
   </button>
-  <button>
+  <button
+    aria-label="reset-btn"
+  >
     Reset
   </button>
   <button>
